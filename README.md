@@ -28,16 +28,4 @@ This project demonstrates how a payment gateway works using **UPI, Card, and Net
 - **Maven**
 - **JWT (optional for securing APIs)**
 
----
-
-## 🗄️ Database Schema
-```sql
-CREATE TABLE jpa_payment_table (
-    id BIGSERIAL PRIMARY KEY,
-    dealer_id BIGINT NOT NULL,
-    payment_amount NUMERIC(10,2) NOT NULL,
-    method VARCHAR(50) NOT NULL,
-    status VARCHAR(20) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
