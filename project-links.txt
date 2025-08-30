@@ -1,0 +1,49 @@
+
+=============================================>For dealer-vehicle-management-api<=====================================================
+
+
+GitHub Profile Link -->    https://github.com/Rajnish123Yadav
+
+Github repo Link -->       https://rajnish123yadav.github.io/dealer-vehicle-management-api/
+
+deployment Link -->        https://dealer-vehicle-management-api-production.up.railway.app/
+
+			-->	api/dealers/saveDealer    		-> post
+			-->	api/dealers/findAllDealers		-> get
+			-->	api/dealers/findDealerById/2		-> get
+			-->	api/dealers/updateDealerById/3		-> put
+			--> 	api/dealers/deleteDealerById/1  	-> delete
+			-->	api/vehicles/saveVehicle		-> post
+			-->	api/vehicles/findAllVehicles		-> get
+			--> 	api/vehicles/findVehicleById/2		-> get
+			-->	api/vehicles/updateVehicleById/ 	-> put
+			-->	api/vehicles/deleteVehicleById/3 	-> delete
+			--> 	api/vehicles/premium			-> get		
+
+
+
+=============================================>For payment-gateway-simulation-apis<===================================================
+
+Github repo Link -->   https://github.com/Rajnish123Yadav/Payment-Gateway-Simulation-APIs
+
+deployment Link -->    https://payment-gateway-simulation-apis-production.up.railway.app/
+
+
+		-->   api/payment/initiate  		-> post
+			
+		-->   api/payment/findPaymentById/1	-> get
+		
+		json data-> 
+		{
+    			"dealerId": 105,
+    			"amount": 300.00,
+    			"method": "UPI",
+    			"status": "SUCCESS",
+    			"createdAt": "2025-08-30T10:20:00Z"
+  		}
+
+
+====================================================================================================================================
+
+
+
