@@ -7,7 +7,6 @@ import lombok.*;
 
 @Entity
 @Table(name = "JPA_PAYMENT_TABLE")
-@Builder
 public class Payment {
 
     @Id

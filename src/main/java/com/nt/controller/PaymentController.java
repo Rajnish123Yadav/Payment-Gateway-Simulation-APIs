@@ -12,7 +12,6 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/payment")
-@RequiredArgsConstructor
 public class PaymentController {
 
 	@Autowired

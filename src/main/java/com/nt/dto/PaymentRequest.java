@@ -1,11 +1,8 @@
 package com.nt.dto;
 
 import java.math.BigDecimal;
-import lombok.*;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+
 public class PaymentRequest {
     private Long dealerId;
     private BigDecimal amount;
